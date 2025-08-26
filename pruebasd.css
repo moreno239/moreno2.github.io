@@ -86,6 +86,9 @@ a:hover{
 .primercajon{
     display:grid;
     grid-template-columns: auto auto;
+    grid-row: auto;
+    justify-content: center;
+   
     text-align: center;
     padding-top: 20px;
     
@@ -94,27 +97,36 @@ a:hover{
 .gridprimer{
     text-align:end;
     padding-right: 40px;
+    padding-top: 50px;
+    
+    
 }
 .gridimagen{
     padding-top: 30px;
-   padding-right: 80px;
+    padding-right: 80px;
+   
 
 }
+.gridimagen img{
+    border-radius: 20px ;
+}
+
 .paginapp{
     color: black;
 }
 
 .segcajon {
     
-    
+    justify-content: center;
     display:grid;
     grid-template-columns: auto auto;
     text-align: center;
     padding-top: 40px;
 } 
 .gridseg{
-    text-align:start;
+    text-align:center;
     padding-left: 30px;
+    margin-right: 20px;
 }  
 .gridimg2{
     
@@ -122,6 +134,9 @@ a:hover{
     padding-left: 50px;
 }
 
+.gridimg2 img{
+    border-radius: 10px;
+}
 .textopp{
     text-align: center;
     justify-content: center;
@@ -195,6 +210,7 @@ img.galeriapp:hover{
     display: grid;
     grid-template-columns: 300px 300px 300px;
     column-gap: 100px;
+    justify-content: center;
    
     
 }
@@ -209,6 +225,19 @@ img.tarjetaimg {
     height: 150px;
     width: 150px;
 }
+
+.formulario{
+    margin: 20px auto 20px;
+    text-align: center;
+  
+    
+}
+
+
+input.nombres{
+    width: 200px;
+}
+
 .pagina2{
     
     background-color: rgb(250, 248, 248);
