@@ -1,0 +1,254 @@
+.principal {
+    
+    margin: 0;
+    /*background-image: url("https://ethic.es/wp-content/uploads/2023/03/imagen.jpg");
+    background-attachment: fixed;
+    background-size: cover;*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+    background-color: rgb(234, 154, 56);
+    height: 50px;
+    justify-content:space-between;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+h1 {
+    color: rgb(59, 104, 240);
+    text-align: center;
+
+}
+
+ 
+p { 
+ color: rgb(14, 15, 15);
+}
+
+h2 {
+    color: rgb(16, 17, 17);
+    text-align: center;
+
+}
+
+img {
+    max-height: 350px;
+    width: 500px;
+   
+   
+} 
+.menulogo{
+    display: flex;
+    align-content: center;
+    padding: 1  0px;
+    width: 30%;
+    
+
+}
+.logo{
+    height: 50px;
+    margin-left: 20px;
+    width: 60px;
+   
+    
+}
+
+.menu{
+    color: aliceblue;
+    text-align: center;
+    width: 20%;
+   
+}
+nav a{
+   padding-right: 7px; 
+}
+.menuitem{
+   color: rgb(3, 3, 3);
+   
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+
+}
+a:hover{
+    color: rgb(235, 229, 240);
+    text-decoration: underline;
+}
+
+
+
+.primercajon{
+    display:grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    padding-top: 20px;
+    
+
+}
+.gridprimer{
+    text-align:end;
+    padding-right: 40px;
+}
+.gridimagen{
+    padding-top: 30px;
+   padding-right: 80px;
+
+}
+.paginapp{
+    color: black;
+}
+
+.segcajon {
+    
+    
+    display:grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    padding-top: 40px;
+} 
+.gridseg{
+    text-align:start;
+    padding-left: 30px;
+}  
+.gridimg2{
+    
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+
+.textopp{
+    text-align: center;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.fotpp{
+    background-color: rgb(54, 51, 51);
+    height: auto;
+
+}
+nav.foter{
+    padding-top: 40px;
+    padding-left: 40px;
+        
+}
+
+a.fotera{
+    display: flex;
+    padding: 10px 10px;
+    color: blanchedalmond;
+  
+    
+}
+
+a.fotera:hover{
+    transform: translateX(5px);
+    transition: .5s ease-in-out;
+    
+}
+
+
+.logofinal{
+    height: 250px;
+    width: 230px;
+}
+
+.galeria-contenedor{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(160, 171, 243);
+  
+}
+
+.galeriagrid{
+    margin: 10px 10px 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+img.galeriapp{
+    width: 275px;
+    height: 250px;
+    justify-content: center;
+    clip-path: circle(50%);   
+    transition: 1s ease;
+}
+img.galeriapp:hover{
+    transform: scale(1.08);
+    clip-path: circle(80%);
+    border-radius: 4px;
+
+}
+
+.contain-tarjetas{
+    margin: 20px 70px 10px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 100px;
+   
+    
+}
+.tarjeta{
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+img.tarjetaimg {
+    height: 150px;
+    width: 150px;
+}
+.pagina2{
+    
+    background-color: rgb(250, 248, 248);
+    margin: 0px;
+}
+
+
+.inicio{
+   margin: 0px;
+}
+
+.caja1{
+    display: grid;
+    text-align: right;
+    background-color: blueviolet;
+    margin: 0px ;
+     
+ }
+
+ .grid-containt{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+ }
+ .grid-item{
+    margin: 20px 20px 20px;
+    justify-content: center;
+    align-items: center;
+ }
+
+img.galeria{
+    width: 370px;
+    height: 300px;
+    justify-content: center;
+    clip-path: circle(50%);
+    transition: .5s ease;
+}
+img.galeria:hover{
+    transform: scale(1.05);
+    animation: ease-in-out;
+    clip-path: circle(80%);
+}
+/*{}*/
